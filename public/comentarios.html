@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Representaciones Codificadas</title>
+    <!--<link rel="stylesheet" href="path/to/bootstrap.min.css"> --> <!-- Asegúrate de usar el path correcto -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+</head>
+<body class="bg-light">
+
+    <div class="container py-5">
+        <header class="text-center mb-5">
+            <h1 class="display-4 text-primary">Representaciones Codificadas (PCA)</h1>
+        </header>
+
+        <div id="plot" class="mb-5"></div>
+
+        <div id="cluster-details" class="row">
+            <!-- Los detalles de los clusters se insertarán aquí -->
+        </div>
+
+        <div class="text-center mt-5">
+            <button class="btn btn-primary" onclick="window.location.reload();">Recargar</button>
+        </div>
+    </div>
+
+    <script>
+        fetch('/representaciones')
+            .then(response => response.json())
+            .then(data => {
+                const { data: reducedData, clusters, ids, conversations, details } = data;
+                
+                const trace = {
+                    x: reducedData.map(d => d[0]),
+                    y: reducedData.map(d => d[1]),
+                    mode: 'markers',
+                    type: 'scatter',
+                    marker: {
+                        color: clusters,
+                        colorscale: 'Viridis'
+                    },
+                    text: reducedData.map((d, i) => 
+                        `ID: ${ids[i]}<br>PC1: ${d[0]}<br>PC2: ${d[1]}<br>Conversación: ${conversations[i]}`),
+                    hoverinfo: 'text',
+                    name: 'ID de Conversación'
+                };
+
+                const layout = {
+                    title: 'Representaciones Codificadas (PCA)',
+                    xaxis: { title: 'PC1' },
+                    yaxis: { title: 'PC2' },
+                    plot_bgcolor: '#f4f4f9'
+                };
+
+                Plotly.newPlot('plot', [trace], layout);
+
+                const clusterDetailsDiv = document.getElementById('cluster-details');
+                details.forEach(detail => {
+                    const clusterDiv = document.createElement('div');
+                    clusterDiv.classList.add('col-md-4', 'mb-4');
+                    clusterDiv.innerHTML = `<div class="card shadow-sm">
+                                                <div class="card-body">
+                                                    <h5 class="card-title">Cluster ${detail.cluster}</h5>
+                                                    <p class="card-text"><strong>Tamaño:</strong> ${detail.size}</p>
+                                                    <p class="card-text"><strong>Ejemplos:</strong></p>
+                                                    <ul>${detail.examples.map(e => `<li>${e.conversacion}</li>`).join('')}</ul>
+                                                </div>
+                                            </div>`;
+                    clusterDetailsDiv.appendChild(clusterDiv);
+                });
+            })
+            .catch(error => console.error('Error:', error));
+    </script>
+
+    <!-- Scripts de Bootstrap (asegúrate de tener estos archivos localmente si no usas CDN) -->
+    <script src="path/to/bootstrap.bundle.min.js"></script>
+</body>
+</html>
