@@ -1,0 +1,11 @@
+"id","nombre","plataforma","accion","simulación","aventura","rpg","shooter","deportes","estrategia"
+1,"The Legend of Zelda: Breath of the Wild","Nintendo Switch",0,0,1,1,0,0,0
+2,"FIFA 23","PlayStation 5",0,0,0,0,0,1,0
+3,"Call of Duty: Modern Warfare II","Xbox Series X",1,0,0,0,1,0,0
+4,"The Sims 4","PC",0,1,0,0,0,0,0
+5,"Elden Ring","PlayStation 4",0,0,1,1,0,0,0
+6,"Minecraft","PC",0,1,1,0,0,0,1
+7,"Halo Infinite","Xbox Series X",1,0,0,0,1,0,0
+8,"Animal Crossing: New Horizons","Nintendo Switch",0,1,1,0,0,0,0
+9,"League of Legends","PC",0,0,0,0,0,0,1
+10,"NBA 2K24","PlayStation 5",0,0,0,0,0,1,0

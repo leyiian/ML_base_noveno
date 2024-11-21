@@ -1,0 +1,11 @@
+"id","nombre_completo","plataforma","accion","simulación","aventura","rpg","shooter","deportes","estrategia"
+"1","Carlos González","PC",0,0,0,0,0,1,0
+"2","María López","Nintendo Switch",1,0,0,0,1,0,0
+"3","Javier Martínez","PlayStation 5",0,0,0,0,0,1,0
+"4","Luisa Fernández","PC",0,1,1,0,0,0,1
+"5","Andrés Herrera","Xbox Series X",1,0,0,0,1,0,0
+"6","Patricia Sánchez","Nintendo Switch",0,1,1,0,0,0,0
+"7","Miguel Torres","PlayStation 4",0,0,1,1,0,0,0
+"8","Ana Ramírez","PC",0,1,1,0,0,0,1
+"9","Roberto Castillo","Xbox Series X",1,0,0,0,1,0,0
+"10","Carmen Rodríguez","PlayStation 5",0,0,0,0,0,1,0

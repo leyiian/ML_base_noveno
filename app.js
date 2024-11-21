@@ -5,6 +5,7 @@ const path = require('path');
 // Importar modelos independientes
 const probabilidadModel = require('./ml/probabilidad');
 const comentariosModel = require('./ml/comentarios');
+const recomendacionModel = require('./ml/recomendacion');
 
 const app = express();
 const port = 3000;
@@ -28,13 +29,14 @@ app.get('/comentarios.html', (req, res) => {
 });
 
 app.get('/recomendaciones.html', (req, res) => {
-    res.sendFile(path.join(__dirname, 'public/recomendaciones.html')); // Análisis de conversaciones
+    res.sendFile(path.join(__dirname, 'public/recomendaciones.html')); // Análisis de recomendaciones
 });
 
 
 // Endpoints de API para cada funcionalidad
 probabilidadModel(app); // Lógica para el modelo de probabilidad
 comentariosModel(app);
+app.use('/recommend', recomendacionModel);
 
 // Iniciar servidor
 app.listen(port, () => {
