@@ -1,163 +1,301 @@
 nombre,plataforma,tipo,monto,proba
-The Legend of Zelda: Breath of the Wild,Nintendo Switch,Físico,60,0
-Call of Duty: Modern Warfare II,PlayStation 5,En línea,70,0
-Minecraft,PC,Físico,30,0
-Genshin Impact,PC,En línea,0,0
-Mario Kart 8 Deluxe,Nintendo Switch,Físico,50,0
-League of Legends,PC,En línea,0,0
-Red Dead Redemption 2,PlayStation 4,Físico,40,0
-Fortnite,Xbox Series X,En línea,0,0
-Elden Ring,PlayStation 5,Físico,60,0
-Among Us,PC,En línea,5,0
-Hollow Knight,Nintendo Switch,Físico,15,0
-The Witcher 3: Wild Hunt,PC,Físico,40,0
-Animal Crossing: New Horizons,Nintendo Switch,Físico,55,0
-Apex Legends,PC,En línea,0,0
-Valorant,PC,En línea,0,0
-FIFA 23,PlayStation 5,Físico,70,0
-PUBG: Battlegrounds,PC,En línea,0,0
-Grand Theft Auto V,PlayStation 4,Físico,30,0
-Overwatch 2,PC,En línea,0,0
-Dark Souls III,PlayStation 4,Físico,50,0
-Sekiro: Shadows Die Twice,PlayStation 5,Físico,60,0
-Rocket League,PC,En línea,0,0
-Cyberpunk 2077,PC,Físico,60,0
-Stardew Valley,Nintendo Switch,Físico,20,0
-Fall Guys,PC,En línea,0,0
-Tetris Effect,Nintendo Switch,Físico,40,0
-Hades,PC,Físico,25,0
-Splatoon 3,Nintendo Switch,Físico,60,0
-Death Stranding,PlayStation 4,Físico,40,0
-Portal 2,PC,Físico,10,0
-Destiny 2,PC,En línea,0,0
-Far Cry 6,PlayStation 5,Físico,60,0
-Terraria,PC,Físico,10,0
-Assassin's Creed Valhalla,PlayStation 5,Físico,60,0
-Cuphead,Nintendo Switch,Físico,20,0
-No Man's Sky,PlayStation 5,Físico,50,0
-Horizon Zero Dawn,PlayStation 4,Físico,40,0
-Ghost of Tsushima,PlayStation 5,Físico,60,0
-Diablo III,PC,Físico,20,0
-Doom Eternal,PlayStation 4,Físico,40,0
-Forza Horizon 5,Xbox Series X,Físico,60,0
-Borderlands 3,PC,Físico,40,0
-It Takes Two,PC,Físico,30,0
-Metroid Dread,Nintendo Switch,Físico,60,0
-Resident Evil Village,PlayStation 5,Físico,60,0
-Control,PC,Físico,30,0
-Super Mario Odyssey,Nintendo Switch,Físico,55,0
-Outlast,PC,Físico,20,0
-Dishonored 2,PC,Físico,30,0
-Celeste,Nintendo Switch,Físico,20,0
-Spelunky 2,PC,Físico,15,0
-Monster Hunter Rise,Nintendo Switch,Físico,60,0
-Bloodborne,PlayStation 4,Físico,40,0
-Little Nightmares II,PC,Físico,30,0
-Final Fantasy XV,PlayStation 4,Físico,50,0
-Kingdom Hearts III,PlayStation 4,Físico,60,0
-Nier: Automata,PC,Físico,40,0
-Yakuza: Like a Dragon,PlayStation 5,Físico,60,0
-Dragon Quest XI,PlayStation 4,Físico,50,0
-Persona 5 Royal,PlayStation 5,Físico,60,0
-Fire Emblem: Three Houses,Nintendo Switch,Físico,60,0
-Octopath Traveler,Nintendo Switch,Físico,50,0
-Xenoblade Chronicles 3,Nintendo Switch,Físico,60,0
-Crash Bandicoot 4,Nintendo Switch,Físico,40,0
-Spyro Reignited Trilogy,Nintendo Switch,Físico,30,0
-Super Smash Bros. Ultimate,Nintendo Switch,Físico,60,0
-Ratchet & Clank: Rift Apart,PlayStation 5,Físico,70,0
-God of War Ragnarok,PlayStation 5,Físico,70,0
-Returnal,PlayStation 5,Físico,60,0
-Bayonetta 3,Nintendo Switch,Físico,60,0
-Mario Party Superstars,Nintendo Switch,Físico,50,0
-Pokémon Scarlet,Nintendo Switch,Físico,60,0
-Pokémon Violet,Nintendo Switch,Físico,60,0
-Shin Megami Tensei V,Nintendo Switch,Físico,60,0
-Luigi's Mansion 3,Nintendo Switch,Físico,60,0
-Donkey Kong Country: Tropical Freeze,Nintendo Switch,Físico,50,0
-Kirby and the Forgotten Land,Nintendo Switch,Físico,60,0
-Danganronpa V3,PC,Físico,30,0
-Phoenix Wright: Ace Attorney Trilogy,PC,Físico,30,0
-Catherine: Full Body,PlayStation 4,Físico,40,0
-Gravity Rush 2,PlayStation 4,Físico,30,0
-Okami HD,PC,Físico,20,0
-The Last of Us Part II,PlayStation 4,Físico,60,0
-Marvel's Spider-Man: Miles Morales,PlayStation 5,Físico,50,0
-Uncharted: Legacy of Thieves Collection,PlayStation 5,Físico,60,0
-The Quarry,PlayStation 5,Físico,60,0
-Tales of Arise,PlayStation 5,Físico,60,0
-Ghostwire: Tokyo,PlayStation 5,Físico,60,0
-Dead Space Remake,PlayStation 5,Físico,70,0
-Alan Wake Remastered,PlayStation 4,Físico,30,0
-The Callisto Protocol,PlayStation 5,Físico,60,0
-Sekiro: Shadows Die Twice,PlayStation 5,Físico,600,1
-Rocket League,PC,En línea,200,1
-Cyberpunk 2077,PC,Físico,700,1
-Stardew Valley,Nintendo Switch,Físico,250,1
-Fall Guys,PC,En línea,300,1
-Tetris Effect,Nintendo Switch,Físico,450,1
-Hades,PC,Físico,350,1
-Splatoon 3,Nintendo Switch,Físico,650,1
-Death Stranding,PlayStation 4,Físico,450,1
-Portal 2,PC,Físico,300,1
-Destiny 2,PC,En línea,500,1
-Far Cry 6,PlayStation 5,Físico,750,1
-Terraria,PC,Físico,200,1
-Assassin's Creed Valhalla,PlayStation 5,Físico,800,1
-Cuphead,Nintendo Switch,Físico,300,1
-No Man's Sky,PlayStation 5,Físico,500,1
-Horizon Zero Dawn,PlayStation 4,Físico,450,1
-Ghost of Tsushima,PlayStation 5,Físico,650,1
-Diablo III,PC,Físico,300,1
-Doom Eternal,PlayStation 4,Físico,450,1
-Forza Horizon 5,Xbox Series X,Físico,650,1
-Borderlands 3,PC,Físico,550,1
-It Takes Two,PC,Físico,450,1
-Metroid Dread,Nintendo Switch,Físico,600,1
-Resident Evil Village,PlayStation 5,Físico,650,1
-Control,PC,Físico,500,1
-Super Mario Odyssey,Nintendo Switch,Físico,600,1
-Outlast,PC,Físico,300,1
-Dishonored 2,PC,Físico,400,1
-Celeste,Nintendo Switch,Físico,300,1
-Spelunky 2,PC,Físico,250,1
-Monster Hunter Rise,Nintendo Switch,Físico,700,1
-Bloodborne,PlayStation 4,Físico,500,1
-Little Nightmares II,PC,Físico,400,1
-Final Fantasy XV,PlayStation 4,Físico,550,1
-Kingdom Hearts III,PlayStation 4,Físico,650,1
-Nier: Automata,PC,Físico,500,1
-Yakuza: Like a Dragon,PlayStation 5,Físico,750,1
-Dragon Quest XI,PlayStation 4,Físico,550,1
-Persona 5 Royal,PlayStation 5,Físico,700,1
-Fire Emblem: Three Houses,Nintendo Switch,Físico,650,1
-Octopath Traveler,Nintendo Switch,Físico,550,1
-Xenoblade Chronicles 3,Nintendo Switch,Físico,700,1
-Crash Bandicoot 4,Nintendo Switch,Físico,450,1
-Spyro Reignited Trilogy,Nintendo Switch,Físico,400,1
-Super Smash Bros. Ultimate,Nintendo Switch,Físico,700,1
-Ratchet & Clank: Rift Apart,PlayStation 5,Físico,750,1
-God of War Ragnarok,PlayStation 5,Físico,800,1
-Returnal,PlayStation 5,Físico,600,1
-Bayonetta 3,Nintendo Switch,Físico,650,1
-Mario Party Superstars,Nintendo Switch,Físico,550,1
-Pokémon Scarlet,Nintendo Switch,Físico,700,1
-Pokémon Violet,Nintendo Switch,Físico,700,1
-Shin Megami Tensei V,Nintendo Switch,Físico,700,1
-Luigi's Mansion 3,Nintendo Switch,Físico,700,1
-Donkey Kong Country: Tropical Freeze,Nintendo Switch,Físico,550,1
-Kirby and the Forgotten Land,Nintendo Switch,Físico,650,1
-Danganronpa V3,PC,Físico,450,1
-Phoenix Wright: Ace Attorney Trilogy,PC,Físico,400,1
-Catherine: Full Body,PlayStation 4,Físico,500,1
-Gravity Rush 2,PlayStation 4,Físico,400,1
-Okami HD,PC,Físico,300,1
-The Last of Us Part II,PlayStation 4,Físico,750,1
-Marvel's Spider-Man: Miles Morales,PlayStation 5,Físico,650,1
-Uncharted: Legacy of Thieves Collection,PlayStation 5,Físico,700,1
-The Quarry,PlayStation 5,Físico,700,1
-Tales of Arise,PlayStation 5,Físico,700,1
-Ghostwire: Tokyo,PlayStation 5,Físico,650,1
-Dead Space Remake,PlayStation 5,Físico,800,1
-Alan Wake Remastered,PlayStation 4,Físico,450,1
-The Callisto Protocol,PlayStation 5,Físico,700,1
+The Legend of Zelda: Breath of the Wild,Nintendo Switch,Físico,1100,1
+Call of Duty: Modern Warfare II,PlayStation 5,En línea,1400,1
+Hollow Knight,Nintendo Switch,Físico,800,1
+Monster Hunter Rise,PC,En línea,1200,1
+NBA 2K24,PlayStation 5,Físico,1300,1
+Diablo IV,Xbox Series X,En línea,1100,1
+Starfield,PC,En línea,1300,1
+Metroid Dread,Nintendo Switch,Físico,1100,1
+It Takes Two,PlayStation 4,Físico,800,1
+The Elder Scrolls V: Skyrim,PC,En línea,600,1
+The Legend of Zelda: Breath of the Wild,Nintendo Switch,Físico,1100,1
+Call of Duty: Modern Warfare II,PlayStation 5,En línea,1400,1
+Hollow Knight,Nintendo Switch,Físico,800,1
+Monster Hunter Rise,PC,En línea,1200,1
+NBA 2K24,PlayStation 5,Físico,1300,1
+Diablo IV,Xbox Series X,En línea,1100,1
+Starfield,PC,En línea,1300,1
+Metroid Dread,Nintendo Switch,Físico,1100,1
+It Takes Two,PlayStation 4,Físico,800,1
+The Elder Scrolls V: Skyrim,PC,En línea,600,1
+The Legend of Zelda: Breath of the Wild,Nintendo Switch,Físico,1100,1
+Call of Duty: Modern Warfare II,PlayStation 5,En línea,1400,1
+Hollow Knight,Nintendo Switch,Físico,800,1
+Monster Hunter Rise,PC,En línea,1200,1
+NBA 2K24,PlayStation 5,Físico,1300,1
+Diablo IV,Xbox Series X,En línea,1100,1
+Starfield,PC,En línea,1300,1
+Metroid Dread,Nintendo Switch,Físico,1100,1
+It Takes Two,PlayStation 4,Físico,800,1
+The Elder Scrolls V: Skyrim,PC,En línea,600,1
+The Legend of Zelda: Breath of the Wild,Nintendo Switch,Físico,1100,1
+Call of Duty: Modern Warfare II,PlayStation 5,En línea,1400,1
+Hollow Knight,Nintendo Switch,Físico,800,1
+Monster Hunter Rise,PC,En línea,1200,1
+NBA 2K24,PlayStation 5,Físico,1300,1
+Diablo IV,Xbox Series X,En línea,1100,1
+Starfield,PC,En línea,1300,1
+Metroid Dread,Nintendo Switch,Físico,1100,1
+It Takes Two,PlayStation 4,Físico,800,1
+The Elder Scrolls V: Skyrim,PC,En línea,600,1
+The Legend of Zelda: Breath of the Wild,Nintendo Switch,Físico,1100,1
+Call of Duty: Modern Warfare II,PlayStation 5,En línea,1400,1
+Hollow Knight,Nintendo Switch,Físico,800,1
+Monster Hunter Rise,PC,En línea,1200,1
+NBA 2K24,PlayStation 5,Físico,1300,1
+Diablo IV,Xbox Series X,En línea,1100,1
+Starfield,PC,En línea,1300,1
+Metroid Dread,Nintendo Switch,Físico,1100,1
+It Takes Two,PlayStation 4,Físico,800,1
+The Elder Scrolls V: Skyrim,PC,En línea,600,1
+The Legend of Zelda: Breath of the Wild,Nintendo Switch,Físico,1100,1
+Call of Duty: Modern Warfare II,PlayStation 5,En línea,1400,1
+Hollow Knight,Nintendo Switch,Físico,800,1
+Monster Hunter Rise,PC,En línea,1200,1
+NBA 2K24,PlayStation 5,Físico,1300,1
+Diablo IV,Xbox Series X,En línea,1100,1
+Starfield,PC,En línea,1300,1
+Metroid Dread,Nintendo Switch,Físico,1100,1
+It Takes Two,PlayStation 4,Físico,800,1
+The Elder Scrolls V: Skyrim,PC,En línea,600,1
+The Legend of Zelda: Breath of the Wild,Nintendo Switch,Físico,1100,1
+Call of Duty: Modern Warfare II,PlayStation 5,En línea,1400,1
+Hollow Knight,Nintendo Switch,Físico,800,1
+Monster Hunter Rise,PC,En línea,1200,1
+NBA 2K24,PlayStation 5,Físico,1300,1
+Diablo IV,Xbox Series X,En línea,1100,1
+Starfield,PC,En línea,1300,1
+Metroid Dread,Nintendo Switch,Físico,1100,1
+It Takes Two,PlayStation 4,Físico,800,1
+The Elder Scrolls V: Skyrim,PC,En línea,600,1
+The Legend of Zelda: Breath of the Wild,Nintendo Switch,Físico,1100,1
+Call of Duty: Modern Warfare II,PlayStation 5,En línea,1400,1
+Hollow Knight,Nintendo Switch,Físico,800,1
+Monster Hunter Rise,PC,En línea,1200,1
+NBA 2K24,PlayStation 5,Físico,1300,1
+Diablo IV,Xbox Series X,En línea,1100,1
+Starfield,PC,En línea,1300,1
+Metroid Dread,Nintendo Switch,Físico,1100,1
+It Takes Two,PlayStation 4,Físico,800,1
+The Elder Scrolls V: Skyrim,PC,En línea,600,1
+The Legend of Zelda: Breath of the Wild,Nintendo Switch,Físico,1100,1
+Call of Duty: Modern Warfare II,PlayStation 5,En línea,1400,1
+Hollow Knight,Nintendo Switch,Físico,800,1
+Monster Hunter Rise,PC,En línea,1200,1
+NBA 2K24,PlayStation 5,Físico,1300,1
+Diablo IV,Xbox Series X,En línea,1100,1
+Starfield,PC,En línea,1300,1
+Metroid Dread,Nintendo Switch,Físico,1100,1
+It Takes Two,PlayStation 4,Físico,800,1
+The Elder Scrolls V: Skyrim,PC,En línea,600,1
+The Legend of Zelda: Breath of the Wild,Nintendo Switch,Físico,1100,1
+Call of Duty: Modern Warfare II,PlayStation 5,En línea,1400,1
+Hollow Knight,Nintendo Switch,Físico,800,1
+Monster Hunter Rise,PC,En línea,1200,1
+NBA 2K24,PlayStation 5,Físico,1300,1
+Diablo IV,Xbox Series X,En línea,1100,1
+Starfield,PC,En línea,1300,1
+Metroid Dread,Nintendo Switch,Físico,1100,1
+It Takes Two,PlayStation 4,Físico,800,1
+The Elder Scrolls V: Skyrim,PC,En línea,600,1
+The Legend of Zelda: Breath of the Wild,Nintendo Switch,Físico,1100,1
+Call of Duty: Modern Warfare II,PlayStation 5,En línea,1400,1
+Hollow Knight,Nintendo Switch,Físico,800,1
+Monster Hunter Rise,PC,En línea,1200,1
+NBA 2K24,PlayStation 5,Físico,1300,1
+Diablo IV,Xbox Series X,En línea,1100,1
+Starfield,PC,En línea,1300,1
+Metroid Dread,Nintendo Switch,Físico,1100,1
+It Takes Two,PlayStation 4,Físico,800,1
+The Elder Scrolls V: Skyrim,PC,En línea,600,1
+The Legend of Zelda: Breath of the Wild,Nintendo Switch,Físico,1100,1
+Call of Duty: Modern Warfare II,PlayStation 5,En línea,1400,1
+Hollow Knight,Nintendo Switch,Físico,800,1
+Monster Hunter Rise,PC,En línea,1200,1
+NBA 2K24,PlayStation 5,Físico,1300,1
+Diablo IV,Xbox Series X,En línea,1100,1
+Starfield,PC,En línea,1300,1
+Metroid Dread,Nintendo Switch,Físico,1100,1
+It Takes Two,PlayStation 4,Físico,800,1
+The Elder Scrolls V: Skyrim,PC,En línea,600,1
+The Legend of Zelda: Breath of the Wild,Nintendo Switch,Físico,1100,1
+Call of Duty: Modern Warfare II,PlayStation 5,En línea,1400,1
+Hollow Knight,Nintendo Switch,Físico,800,1
+Monster Hunter Rise,PC,En línea,1200,1
+NBA 2K24,PlayStation 5,Físico,1300,1
+Diablo IV,Xbox Series X,En línea,1100,1
+Starfield,PC,En línea,1300,1
+Metroid Dread,Nintendo Switch,Físico,1100,1
+It Takes Two,PlayStation 4,Físico,800,1
+The Elder Scrolls V: Skyrim,PC,En línea,600,1
+The Legend of Zelda: Breath of the Wild,Nintendo Switch,Físico,1100,1
+Call of Duty: Modern Warfare II,PlayStation 5,En línea,1400,1
+Hollow Knight,Nintendo Switch,Físico,800,1
+Monster Hunter Rise,PC,En línea,1200,1
+NBA 2K24,PlayStation 5,Físico,1300,1
+Diablo IV,Xbox Series X,En línea,1100,1
+Starfield,PC,En línea,1300,1
+Metroid Dread,Nintendo Switch,Físico,1100,1
+It Takes Two,PlayStation 4,Físico,800,1
+The Elder Scrolls V: Skyrim,PC,En línea,600,1
+The Legend of Zelda: Breath of the Wild,Nintendo Switch,Físico,1100,1
+Call of Duty: Modern Warfare II,PlayStation 5,En línea,1400,1
+Hollow Knight,Nintendo Switch,Físico,800,1
+Monster Hunter Rise,PC,En línea,1200,1
+NBA 2K24,PlayStation 5,Físico,1300,1
+Diablo IV,Xbox Series X,En línea,1100,1
+Starfield,PC,En línea,1300,1
+Metroid Dread,Nintendo Switch,Físico,1100,1
+It Takes Two,PlayStation 4,Físico,800,1
+The Elder Scrolls V: Skyrim,PC,En línea,600,1
+The Legend of Zelda: Breath of the Wild,Nintendo Switch,Físico,5000,0
+Call of Duty: Modern Warfare II,PlayStation 5,En línea,6000,0
+Hollow Knight,Nintendo Switch,Físico,4000,0
+Monster Hunter Rise,PC,En línea,5500,0
+NBA 2K24,PlayStation 5,Físico,6500,0
+Diablo IV,Xbox Series X,En línea,5000,0
+Starfield,PC,En línea,7000,0
+Metroid Dread,Nintendo Switch,Físico,5500,0
+It Takes Two,PlayStation 4,Físico,4000,0
+The Elder Scrolls V: Skyrim,PC,En línea,3500,0
+The Legend of Zelda: Breath of the Wild,Nintendo Switch,Físico,5000,0
+Call of Duty: Modern Warfare II,PlayStation 5,En línea,6000,0
+Hollow Knight,Nintendo Switch,Físico,4000,0
+Monster Hunter Rise,PC,En línea,5500,0
+NBA 2K24,PlayStation 5,Físico,6500,0
+Diablo IV,Xbox Series X,En línea,5000,0
+Starfield,PC,En línea,7000,0
+Metroid Dread,Nintendo Switch,Físico,5500,0
+It Takes Two,PlayStation 4,Físico,4000,0
+The Elder Scrolls V: Skyrim,PC,En línea,3500,0
+The Legend of Zelda: Breath of the Wild,Nintendo Switch,Físico,5000,0
+Call of Duty: Modern Warfare II,PlayStation 5,En línea,6000,0
+Hollow Knight,Nintendo Switch,Físico,4000,0
+Monster Hunter Rise,PC,En línea,5500,0
+NBA 2K24,PlayStation 5,Físico,6500,0
+Diablo IV,Xbox Series X,En línea,5000,0
+Starfield,PC,En línea,7000,0
+Metroid Dread,Nintendo Switch,Físico,5500,0
+It Takes Two,PlayStation 4,Físico,4000,0
+The Elder Scrolls V: Skyrim,PC,En línea,3500,0
+The Legend of Zelda: Breath of the Wild,Nintendo Switch,Físico,5000,0
+Call of Duty: Modern Warfare II,PlayStation 5,En línea,6000,0
+Hollow Knight,Nintendo Switch,Físico,4000,0
+Monster Hunter Rise,PC,En línea,5500,0
+NBA 2K24,PlayStation 5,Físico,6500,0
+Diablo IV,Xbox Series X,En línea,5000,0
+Starfield,PC,En línea,7000,0
+Metroid Dread,Nintendo Switch,Físico,5500,0
+It Takes Two,PlayStation 4,Físico,4000,0
+The Elder Scrolls V: Skyrim,PC,En línea,3500,0
+The Legend of Zelda: Breath of the Wild,Nintendo Switch,Físico,5000,0
+Call of Duty: Modern Warfare II,PlayStation 5,En línea,6000,0
+Hollow Knight,Nintendo Switch,Físico,4000,0
+Monster Hunter Rise,PC,En línea,5500,0
+NBA 2K24,PlayStation 5,Físico,6500,0
+Diablo IV,Xbox Series X,En línea,5000,0
+Starfield,PC,En línea,7000,0
+Metroid Dread,Nintendo Switch,Físico,5500,0
+It Takes Two,PlayStation 4,Físico,4000,0
+The Elder Scrolls V: Skyrim,PC,En línea,3500,0
+The Legend of Zelda: Breath of the Wild,Nintendo Switch,Físico,5000,0
+Call of Duty: Modern Warfare II,PlayStation 5,En línea,6000,0
+Hollow Knight,Nintendo Switch,Físico,4000,0
+Monster Hunter Rise,PC,En línea,5500,0
+NBA 2K24,PlayStation 5,Físico,6500,0
+Diablo IV,Xbox Series X,En línea,5000,0
+Starfield,PC,En línea,7000,0
+Metroid Dread,Nintendo Switch,Físico,5500,0
+It Takes Two,PlayStation 4,Físico,4000,0
+The Elder Scrolls V: Skyrim,PC,En línea,3500,0
+The Legend of Zelda: Breath of the Wild,Nintendo Switch,Físico,5000,0
+Call of Duty: Modern Warfare II,PlayStation 5,En línea,6000,0
+Hollow Knight,Nintendo Switch,Físico,4000,0
+Monster Hunter Rise,PC,En línea,5500,0
+NBA 2K24,PlayStation 5,Físico,6500,0
+Diablo IV,Xbox Series X,En línea,5000,0
+Starfield,PC,En línea,7000,0
+Metroid Dread,Nintendo Switch,Físico,5500,0
+It Takes Two,PlayStation 4,Físico,4000,0
+The Elder Scrolls V: Skyrim,PC,En línea,3500,0
+The Legend of Zelda: Breath of the Wild,Nintendo Switch,Físico,5000,0
+Call of Duty: Modern Warfare II,PlayStation 5,En línea,6000,0
+Hollow Knight,Nintendo Switch,Físico,4000,0
+Monster Hunter Rise,PC,En línea,5500,0
+NBA 2K24,PlayStation 5,Físico,6500,0
+Diablo IV,Xbox Series X,En línea,5000,0
+Starfield,PC,En línea,7000,0
+Metroid Dread,Nintendo Switch,Físico,5500,0
+It Takes Two,PlayStation 4,Físico,4000,0
+The Elder Scrolls V: Skyrim,PC,En línea,3500,0
+The Legend of Zelda: Breath of the Wild,Nintendo Switch,Físico,5000,0
+Call of Duty: Modern Warfare II,PlayStation 5,En línea,6000,0
+Hollow Knight,Nintendo Switch,Físico,4000,0
+Monster Hunter Rise,PC,En línea,5500,0
+NBA 2K24,PlayStation 5,Físico,6500,0
+Diablo IV,Xbox Series X,En línea,5000,0
+Starfield,PC,En línea,7000,0
+Metroid Dread,Nintendo Switch,Físico,5500,0
+It Takes Two,PlayStation 4,Físico,4000,0
+The Elder Scrolls V: Skyrim,PC,En línea,3500,0
+The Legend of Zelda: Breath of the Wild,Nintendo Switch,Físico,5000,0
+Call of Duty: Modern Warfare II,PlayStation 5,En línea,6000,0
+Hollow Knight,Nintendo Switch,Físico,4000,0
+Monster Hunter Rise,PC,En línea,5500,0
+NBA 2K24,PlayStation 5,Físico,6500,0
+Diablo IV,Xbox Series X,En línea,5000,0
+Starfield,PC,En línea,7000,0
+Metroid Dread,Nintendo Switch,Físico,5500,0
+It Takes Two,PlayStation 4,Físico,4000,0
+The Elder Scrolls V: Skyrim,PC,En línea,3500,0
+The Legend of Zelda: Breath of the Wild,Nintendo Switch,Físico,5000,0
+Call of Duty: Modern Warfare II,PlayStation 5,En línea,6000,0
+Hollow Knight,Nintendo Switch,Físico,4000,0
+Monster Hunter Rise,PC,En línea,5500,0
+NBA 2K24,PlayStation 5,Físico,6500,0
+Diablo IV,Xbox Series X,En línea,5000,0
+Starfield,PC,En línea,7000,0
+Metroid Dread,Nintendo Switch,Físico,5500,0
+It Takes Two,PlayStation 4,Físico,4000,0
+The Elder Scrolls V: Skyrim,PC,En línea,3500,0
+The Legend of Zelda: Breath of the Wild,Nintendo Switch,Físico,5000,0
+Call of Duty: Modern Warfare II,PlayStation 5,En línea,6000,0
+Hollow Knight,Nintendo Switch,Físico,4000,0
+Monster Hunter Rise,PC,En línea,5500,0
+NBA 2K24,PlayStation 5,Físico,6500,0
+Diablo IV,Xbox Series X,En línea,5000,0
+Starfield,PC,En línea,7000,0
+Metroid Dread,Nintendo Switch,Físico,5500,0
+It Takes Two,PlayStation 4,Físico,4000,0
+The Elder Scrolls V: Skyrim,PC,En línea,3500,0
+The Legend of Zelda: Breath of the Wild,Nintendo Switch,Físico,5000,0
+Call of Duty: Modern Warfare II,PlayStation 5,En línea,6000,0
+Hollow Knight,Nintendo Switch,Físico,4000,0
+Monster Hunter Rise,PC,En línea,5500,0
+NBA 2K24,PlayStation 5,Físico,6500,0
+Diablo IV,Xbox Series X,En línea,5000,0
+Starfield,PC,En línea,7000,0
+Metroid Dread,Nintendo Switch,Físico,5500,0
+It Takes Two,PlayStation 4,Físico,4000,0
+The Elder Scrolls V: Skyrim,PC,En línea,3500,0
+The Legend of Zelda: Breath of the Wild,Nintendo Switch,Físico,5000,0
+Call of Duty: Modern Warfare II,PlayStation 5,En línea,6000,0
+Hollow Knight,Nintendo Switch,Físico,4000,0
+Monster Hunter Rise,PC,En línea,5500,0
+NBA 2K24,PlayStation 5,Físico,6500,0
+Diablo IV,Xbox Series X,En línea,5000,0
+Starfield,PC,En línea,7000,0
+Metroid Dread,Nintendo Switch,Físico,5500,0
+It Takes Two,PlayStation 4,Físico,4000,0
+The Elder Scrolls V: Skyrim,PC,En línea,3500,0
+The Legend of Zelda: Breath of the Wild,Nintendo Switch,Físico,5000,0
+Call of Duty: Modern Warfare II,PlayStation 5,En línea,6000,0
+Hollow Knight,Nintendo Switch,Físico,4000,0
+Monster Hunter Rise,PC,En línea,5500,0
+NBA 2K24,PlayStation 5,Físico,6500,0
+Diablo IV,Xbox Series X,En línea,5000,0
+Starfield,PC,En línea,7000,0
+Metroid Dread,Nintendo Switch,Físico,5500,0
+It Takes Two,PlayStation 4,Físico,4000,0
+The Elder Scrolls V: Skyrim,PC,En línea,3500,0
