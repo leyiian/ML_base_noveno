@@ -6,6 +6,7 @@
     <title>Representaciones Codificadas</title>
     <!--<link rel="stylesheet" href="path/to/bootstrap.min.css"> --> <!-- Asegúrate de usar el path correcto -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/comentarios.css" rel="stylesheet">
     <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
 </head>
 <body class="bg-light">
@@ -23,6 +24,8 @@
 
         <div class="text-center mt-5">
             <button class="btn btn-primary" onclick="window.location.reload();">Recargar</button>
+            <a href="index.html" class="btn custom-btn">Volver al inicio</a>
+
         </div>
     </div>
 
@@ -51,7 +54,9 @@
                     title: 'Representaciones Codificadas (PCA)',
                     xaxis: { title: 'PC1' },
                     yaxis: { title: 'PC2' },
-                    plot_bgcolor: '#f4f4f9'
+                    plot_bgcolor: '#f4f4f9',
+                    width: window.innerWidth * 0.5,
+                    height: 600 
                 };
 
                 Plotly.newPlot('plot', [trace], layout);

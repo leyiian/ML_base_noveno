@@ -1,0 +1,160 @@
+/* Estilos generales */
+body {
+    background-image: url('../img/descargado.jpeg'); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+h1, h2 {
+    text-align: center;
+    color: #000000; /* Azul para destacar los títulos */
+}
+
+/* Contenedor del formulario de cliente */
+#cliente-info {
+    margin: 20px auto;
+    padding: 20px;
+    width: 90%;
+    max-width: 600px;
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+#cliente-info form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#cliente-info label {
+    font-weight: bold;
+}
+
+#cliente-info input {
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+#cliente-info button {
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#cliente-info button:hover {
+    background-color: #0056b3;
+}
+
+#cliente-detalles {
+    margin-top: 15px;
+    font-size: 14px;
+    color: #555;
+}
+
+/* Contenedor de preferencias */
+#preferencias-form-container {
+    margin: 20px auto;
+    padding: 20px;
+    width: 90%;
+    max-width: 600px;
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+fieldset {
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 4px;
+    margin-bottom: 15px;
+}
+
+legend {
+    font-weight: bold;
+    color: #007bff;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+button[type="submit"] {
+    padding: 10px;
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button[type="submit"]:hover {
+    background-color: #218838;
+}
+
+#recommendation {
+    margin-top: 20px;
+    font-weight: bold;
+    color: #333;
+}
+
+#assign-button {
+    display: none;
+    margin-top: 15px;
+    padding: 10px;
+    background-color: #ffc107;
+    color: #333;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#assign-button:hover {
+    background-color: #e0a800;
+}
+
+.custom-btn {
+    background-color: #0adc3b; /* Verde claro */
+    color: #ffffff; /* Texto blanco */
+    border: none;
+    border-radius: 50px;
+    padding: 10px 20px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease, transform 0.2s ease, box-shadow 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.custom-btn:hover {
+    background-color: #04e836; /* Verde más oscuro al pasar el cursor */
+    transform: scale(1.05);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.3);
+}
+
+.custom-btn:active {
+    background-color: #00da33; /* Verde aún más oscuro al hacer clic */
+    transform: scale(0.95);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}

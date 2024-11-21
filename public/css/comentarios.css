@@ -1,0 +1,90 @@
+body.bg-light {
+    background: url('../img/Dark aesthetic.jpeg') no-repeat center center fixed;
+    background-size: 1700px 800px;
+    background-position: center; 
+    background-repeat: no-repeat; 
+    color: #333;
+    font-family: 'Arial', sans-serif;
+}
+
+.container {
+    background-color: rgba(255, 255, 255, 0.85); /* Fondo blanco translúcido */
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+
+h1.display-4 {
+    font-weight: bold;
+    color: #4a90e2;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.card {
+    border: none;
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.15);
+}
+
+.card-title {
+    font-size: 1.25rem;
+    color: #4a90e2;
+}
+
+.btn-primary {
+    background-color: #4a90e2;
+    border: none;
+    border-radius: 50px;
+    padding: 10px 20px;
+    font-size: 1.1rem;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.btn-primary:hover {
+    background-color: #357ab7;
+    transform: scale(1.05);
+}
+
+#plot {
+    background: #ffffff;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.custom-btn {
+    background-color: #0adc3b; /* Verde claro */
+    color: #ffffff; /* Texto blanco */
+    border: none;
+    border-radius: 50px;
+    padding: 10px 20px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease, transform 0.2s ease, box-shadow 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.custom-btn:hover {
+    background-color: #04e836; /* Verde más oscuro al pasar el cursor */
+    transform: scale(1.05);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.3);
+}
+
+.custom-btn:active {
+    background-color: #00da33; /* Verde aún más oscuro al hacer clic */
+    transform: scale(0.95);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}

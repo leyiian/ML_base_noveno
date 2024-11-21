@@ -5,85 +5,99 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Recomendación de Juegos</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/recomendacion.css"
 </head>
 <body>
     <h1>Recomendación de Juegos</h1>
 
     <div id="cliente-info">
-        <h2>Información del usuario</h2>
+        <h2>Seleccionar Cliente</h2>
         <form id="cliente-form">
-            <label for="cliente-id">ID del Usuario</label>
+            <label for="cliente-id">ID del Cliente</label>
             <input type="text" id="cliente-id" name="cliente-id" required>
             <button type="submit">Consultar</button>
         </form>
         <div id="cliente-detalles"></div>
-        <div id="generos-seleccionados"></div>
     </div>
 
     <div id="preferencias-form-container" style="display: none;">
-        <h2>Modificar Preferencias</h2>
+        <h2>Preferencias del Cliente</h2>
         <form id="preferences-form">
             <input type="hidden" id="cliente-id-hidden">
-            
-            <label for="accion">Acción</label>
-            <input type="checkbox" id="accion" name="preferences" value="1">
-            <br>
-            <label for="simulacion">Simulación</label>
-            <input type="checkbox" id="simulacion" name="preferences" value="1">
-            <br>
-            <label for="aventura">Aventura</label>
-            <input type="checkbox" id="aventura" name="preferences" value="1">
-            <br>
-            <label for="rpg">RPG</label>
-            <input type="checkbox" id="rpg" name="preferences" value="1">
-            <br>
-            <label for="shooter">Shooter</label>
-            <input type="checkbox" id="shooter" name="preferences" value="1">
-            <br>
-            <label for="deportes">Deportes</label>
-            <input type="checkbox" id="deportes" name="preferences" value="1">
-            <br>
-            <label for="estrategia">Estrategia</label>
-            <input type="checkbox" id="estrategia" name="preferences" value="1">
-            <br>
+
+            <!-- Selección de Plataforma -->
+            <fieldset>
+                <legend>Plataforma</legend>
+                <label>
+                    <input type="radio" name="plataforma" value="PC" required> PC
+                </label><br>
+                <label>
+                    <input type="radio" name="plataforma" value="Xbox"> Xbox
+                </label><br>
+                <label>
+                    <input type="radio" name="plataforma" value="PlayStation 5"> PlayStation 5
+                </label><br>
+                <label>
+                    <input type="radio" name="plataforma" value="PlayStation 4"> PlayStation 4
+                </label><br>
+                <label>
+                    <input type="radio" name="plataforma" value="Nintendo"> Nintendo
+                </label>
+            </fieldset>
+
+            <!-- Selección de Géneros -->
+            <fieldset>
+                <legend>Géneros</legend>
+                <label>
+                    <input type="checkbox" name="generos" value="Acción"> Acción
+                </label><br>
+                <label>
+                    <input type="checkbox" name="generos" value="Simulación"> Simulación
+                </label><br>
+                <label>
+                    <input type="checkbox" name="generos" value="Aventura"> Aventura
+                </label><br>
+                <label>
+                    <input type="checkbox" name="generos" value="RPG"> RPG
+                </label><br>
+                <label>
+                    <input type="checkbox" name="generos" value="Shooter"> Shooter
+                </label><br>
+                <label>
+                    <input type="checkbox" name="generos" value="Deportes"> Deportes
+                </label><br>
+                <label>
+                    <input type="checkbox" name="generos" value="Estrategia"> Estrategia
+                </label>
+            </fieldset>
+
             <button type="submit">Obtener Recomendación</button>
         </form>
         <div id="recommendation"></div>
-        <button id="assign-button" style="display: none;">Asignar Juego Sugerido</button>
+        <button id="assign-button" style="display: none;">Asignar Juego Recomendado</button>
+        <a href="index.html" class="btn custom-btn">Volver al inicio</a>
+
     </div>
 
     <script>
         document.getElementById('cliente-form').addEventListener('submit', function (e) {
             e.preventDefault();
             const clienteId = document.getElementById('cliente-id').value;
-            fetch(`/recommend/usuario/${clienteId}`)
+
+            fetch(`/recommend/cliente/${clienteId}`)
                 .then(response => response.json())
                 .then(data => {
                     if (data.error) {
                         document.getElementById('cliente-detalles').innerText = data.error;
                     } else {
                         const clienteDetalles = `
-                            <p>Nombre: ${data.usuario.nombre_completo}</p>
-                            <p>Plataforma: ${data.usuario.plataforma}</p>
-                            <p>Géneros Preferidos: ${data.usuario.preferences.join(', ')}</p>
+                            <p>Nombre: ${data.cliente.nombre_completo}</p>
+                            <p>Plataforma Actual: ${data.plataformaActual}</p>
+                            <p>Géneros Seleccionados: ${data.cliente.generos.join(', ')}</p>
                         `;
                         document.getElementById('cliente-detalles').innerHTML = clienteDetalles;
-                        document.getElementById('cliente-id-hidden').value = data.usuario.id;
+                        document.getElementById('cliente-id-hidden').value = data.cliente.id;
                         document.getElementById('preferencias-form-container').style.display = 'block';
-                         // Definir los géneros.
-                        const generos = [
-                            'Acción', 'Simulación', 'Aventura', 'RPG', 'Shooter', 'Deportes', 'Estrategia'
-                        ];
-
-                        // Filtrar los géneros seleccionados
-                        const preferencias = data.usuario.preferences;
-                        const generosSeleccionados = preferencias
-                            .map((valor, index) => valor > 0 ? generos[index] : null)
-                            .filter(genero => genero !== null);
-
-                        // Mostrar los géneros seleccionados en el HTML
-                        const generosSeleccionadosHTML = generosSeleccionados.join(', ');
-                        document.getElementById('generos-seleccionados').innerText = `Géneros preferido: ${generosSeleccionadosHTML}`;
                     }
                 })
                 .catch(error => console.error('Error:', error));
@@ -91,25 +105,34 @@
 
         document.getElementById('preferences-form').addEventListener('submit', function (e) {
             e.preventDefault();
-            const preferences = Array.from(document.querySelectorAll('input[name="preferences"]'))
-                .map(input => input.checked ? 1 : 0);
+
+            // Obteniendo la plataforma seleccionada
+            const plataforma = document.querySelector('input[name="plataforma"]:checked')?.value;
+            if (!plataforma) {
+                alert('Por favor selecciona una plataforma.');
+                return;
+            }
+
+            // Obteniendo los géneros seleccionados
+            const generos = Array.from(document.querySelectorAll('input[name="generos"]:checked')).map(input => input.value);
+
             const id = document.getElementById('cliente-id-hidden').value;
 
-            fetch('/recommend/recommend', {
+            fetch('/recommend', {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
-                body: JSON.stringify({ id, preferences })
+                body: JSON.stringify({ id, plataforma, generos })
             })
             .then(response => response.json())
             .then(data => {
                 if (data.error) {
                     document.getElementById('recommendation').innerText = `Error: ${data.error}`;
                 } else {
-                    document.getElementById('recommendation').innerText = `Juego Recomendada: ${data.recommendedGame}`;
+                    document.getElementById('recommendation').innerText = `Juego Recomendado: ${data.recommendedGame}`;
                     const assignButton = document.getElementById('assign-button');
                     assignButton.style.display = 'block';
                     assignButton.onclick = function() {
-                        fetch('/recommend/asignar', {
+                        fetch('/assign', {
                             method: 'POST',
                             headers: { 'Content-Type': 'application/json' },
                             body: JSON.stringify({ id, juego: data.recommendedGame })
