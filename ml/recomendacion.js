@@ -6,7 +6,7 @@ const { Parser } = require('json2csv');
 
 const router = express.Router();
 const stateSpace = 7;  // Número de preferencias del cliente
-const actionSpace = 10;  // Número de tarjetas de crédito
+const actionSpace = 30;  // Número de tarjetas de crédito
 const recommender = new Recommender(stateSpace, actionSpace);
 
 let usuarios = [];

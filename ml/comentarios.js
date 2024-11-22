@@ -66,7 +66,7 @@ const comentariosModel = (app) => {
 
             // Entrenar el modelo Autoencoder
             autoencoder.fit(normalizedSequences, normalizedSequences, {
-                epochs: 10,
+                epochs: 200,
                 batchSize: 256,
                 validationSplit: 0.2,
                 callbacks: {

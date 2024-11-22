@@ -61,7 +61,7 @@ module.exports = (app) => {
 
             // Entrenar el modelo
             model.fit(xsTensor, ysTensor, {
-                epochs: 5,
+                epochs:  200,
                 validationSplit: 0.2,
                 callbacks: {
                     onEpochEnd: (epoch, logs) => {
