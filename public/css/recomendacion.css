@@ -1,16 +1,18 @@
 /* Estilos generales */
 body {
-    background-image: url('../img/descargado.jpeg'); 
-    background-size: cover; 
-    background-position: center; 
-    background-repeat: no-repeat; 
+    background-image: url('../img/descargado.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     font-family: Arial, sans-serif;
     color: #333;
 }
 
-h1, h2 {
+h1,
+h2 {
     text-align: center;
-    color: #000000; /* Azul para destacar los títulos */
+    color: #000000;
+    /* Azul para destacar los títulos */
 }
 
 /* Contenedor del formulario de cliente */
@@ -135,8 +137,10 @@ button[type="submit"]:hover {
 }
 
 .custom-btn {
-    background-color: #0adc3b; /* Verde claro */
-    color: #ffffff; /* Texto blanco */
+    background-color: #0adc3b;
+    /* Verde claro */
+    color: #ffffff;
+    /* Texto blanco */
     border: none;
     border-radius: 50px;
     padding: 10px 20px;
@@ -148,13 +152,33 @@ button[type="submit"]:hover {
 }
 
 .custom-btn:hover {
-    background-color: #04e836; /* Verde más oscuro al pasar el cursor */
+    background-color: #04e836;
+    /* Verde más oscuro al pasar el cursor */
     transform: scale(1.05);
     box-shadow: 0 8px 12px rgba(0, 0, 0, 0.3);
 }
 
 .custom-btn:active {
-    background-color: #00da33; /* Verde aún más oscuro al hacer clic */
+    background-color: #00da33;
+    /* Verde aún más oscuro al hacer clic */
     transform: scale(0.95);
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+#loading {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 1000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#loading img{
+    max-width: 20px; /* Anchura máxima */
+    max-height: 20px; /* Altura máxima */
 }

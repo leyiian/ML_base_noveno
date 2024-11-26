@@ -1,12 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Recomendación de Juegos</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="css/recomendacion.css"
-</head>
+    <link rel="stylesheet" href="css/recomendacion.css" </head>
+
 <body>
     <h1>Recomendación de Juegos</h1>
 
@@ -20,6 +21,12 @@
         </form>
         <div id="cliente-detalles"></div>
     </div>
+
+    <div id="loading">
+        <img src="img/carga.gif" alt="Cargando...">
+        <p>Cargando, por favor espera...</p>
+    </div>
+    
 
     <div id="preferencias-form-container" style="display: none;">
         <h2>Preferencias del Cliente</h2>
@@ -77,11 +84,19 @@
         </form>
         <div id="recommendation"></div>
         <button id="assign-button" style="display: none;">Asignar Juego Recomendado</button>
-        
+
 
     </div>
 
     <script>
+        function showLoading() {
+            document.getElementById('loading').style.display = 'block';
+        }
+
+        function hideLoading() {
+            document.getElementById('loading').style.display = 'none';
+        }
+        hideLoading();
         document.getElementById('cliente-form').addEventListener('submit', function (e) {
             e.preventDefault();
             const clienteId = document.getElementById('cliente-id').value;
@@ -99,7 +114,7 @@
                         document.getElementById('cliente-detalles').innerHTML = clienteDetalles;
                         document.getElementById('cliente-id-hidden').value = data.usuario.id;
                         document.getElementById('preferencias-form-container').style.display = 'block';
-                         // Definir los géneros.
+                        // Definir los géneros.
                         const generos = [
                             'Acción', 'Simulación', 'Aventura', 'RPG', 'Shooter', 'Deportes', 'Estrategia'
                         ];
@@ -123,42 +138,44 @@
             const preferences = Array.from(document.querySelectorAll('input[name="preferences"]'))
                 .map(input => input.checked ? 1 : 0);
             const id = document.getElementById('cliente-id-hidden').value;
-
+            showLoading();
             fetch('/recommend/recommend', {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
                 body: JSON.stringify({ id, preferences })
             })
-            .then(response => response.json())
-            .then(data => {
-                if (data.error) {
-                    document.getElementById('recommendation').innerText = `Error: ${data.error}`;
-                } else {
-                    document.getElementById('recommendation').innerText = `Juego Recomendada: ${data.recommendedGame}`;
-                    const assignButton = document.getElementById('assign-button');
-                    assignButton.style.display = 'block';
-                    assignButton.onclick = function() {
-                        fetch('/recommend/asignar', {
-                            method: 'POST',
-                            headers: { 'Content-Type': 'application/json' },
-                            body: JSON.stringify({ id, juego: data.recommendedGame })
-                        })
-                        .then(response => response.json())
-                        .then(assignData => {
-                            if (assignData.error) {
-                                alert(`Error: ${assignData.error}`);
-                            } else {
-                                alert(assignData.message);
-                                document.getElementById('recommendation').innerText += ` - Juego Asignado`;
-                                assignButton.style.display = 'none';
-                            }
-                        })
-                        .catch(error => console.error('Error:', error));
-                    };
-                }
-            })
-            .catch(error => console.error('Error:', error));
+                .then(response => response.json())
+                .then(data => {
+                    hideLoading();
+                    if (data.error) {
+                        document.getElementById('recommendation').innerText = `Error: ${data.error}`;
+                    } else {
+                        document.getElementById('recommendation').innerText = `Juego Recomendada: ${data.recommendedGame}`;
+                        const assignButton = document.getElementById('assign-button');
+                        assignButton.style.display = 'block';
+                        assignButton.onclick = function () {
+                            fetch('/recommend/asignar', {
+                                method: 'POST',
+                                headers: { 'Content-Type': 'application/json' },
+                                body: JSON.stringify({ id, juego: data.recommendedGame })
+                            })
+                                .then(response => response.json())
+                                .then(assignData => {
+                                    if (assignData.error) {
+                                        alert(`Error: ${assignData.error}`);
+                                    } else {
+                                        alert(assignData.message);
+                                        document.getElementById('recommendation').innerText += ` - Juego Asignado`;
+                                        assignButton.style.display = 'none';
+                                    }
+                                })
+                                .catch(error => console.error('Error:', error));
+                        };
+                    }
+                })
+                .catch(error => console.error('Error:', error));
         });
     </script>
 </body>
+
 </html>
